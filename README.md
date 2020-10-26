@@ -1,6 +1,6 @@
 # MonkiProjects.github.io
 
-This website is the home page for [Monki Projects](https://monkiprojects.com)' documentation.
+This website is the home page for [Monki Projects](http://monkiprojects.com)' documentation.
 
 ## Available documentation
 
