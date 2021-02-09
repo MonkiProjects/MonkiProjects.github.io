@@ -1,8 +1,10 @@
 # MonkiProjects.github.io
 
-This website is the home page for [Monki Projects](http://monkiprojects.com)' documentation.
+This website is the home page for [Monki Projects](https://monkiprojects.com)' documentation.
 
 ## Available documentation
 
-- **MonkiProjectsModel**: [/monki-projects-model](https://monkiprojects.github.io/monki-projects-model/)
-- **MonkiMapModel**: [/monki-map-model](https://monkiprojects.github.io/monki-map-model/)
+### Swift
+
+- **MonkiProjectsModel**: [/monki-projects-model-swift](https://monkiprojects.github.io/monki-projects-model-swift/)
+- **MonkiMapModel**: [/monki-map-model-swift](https://monkiprojects.github.io/monki-map-model-swift/)
