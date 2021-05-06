@@ -10,5 +10,4 @@ This website is the home page for [Monki Projects](https://monkiprojects.com)' d
 
 ### Swift
 
-- **MonkiProjectsModel**: [/monki-projects-model-swift](https://docs.monkiprojects.com/monki-projects-model-swift/)
-- **MonkiMapModel**: [/monki-map-model-swift](https://docs.monkiprojects.com/monki-map-model-swift/)
+- **Data Models**: [/monki-projects-model-swift](https://docs.monkiprojects.com/monki-projects-model-swift/)
