@@ -49,6 +49,22 @@ The `.Private` prefix explicits that this DTO should only be shared to very spec
 Finally, DTOs prefixed by `.Create` or `.Update` are used for "Create" and "Update" operations
 when interacting with a [CRUD storage](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete).
 
+### Places are not sent as GeoJSON by default
+
+> By Rémi Bardon on 06/09/2021
+
+For now, our APIs send domain models, but we've considered [GeoJSON].
+To make encoding/decoding easier, we decided not to use [GeoJSON] internally.
+
+However, we'd like to support it one day, along with other
+[Geospatial formats](https://gisgeography.com/gis-formats/).
+It could be
+with a [query parameter](https://en.wikipedia.org/wiki/Query_string) (e.g. `format=geojson`),
+with a path extension (e.g. `/places/463f577f-ae07-44c8-a4f0-db1901bda5c5.geojson`)
+or with a [path component](https://datatracker.ietf.org/doc/html/rfc2396#section-3.3)
+(e.g. `/places/463f577f-ae07-44c8-a4f0-db1901bda5c5/geojson`).
+We did not decide yet, since it's not the moment to do so.
+
 ## Ideas
 
 ### Places as maps
@@ -59,10 +75,12 @@ Places could be seen as maps, because it can contain other [elements](./terminol
 Displaying a place could then show a scoped map with markers for each element creating it,
 as maps show places it contains.
 
-In [GeoJSON](https://geojson.org), that would mean a place is
+In [GeoJSON], that would mean a place is
 a [`FeatureCollection` object](https://datatracker.ietf.org/doc/html/rfc7946#section-3.3),
 not just a [`Feature` object](https://datatracker.ietf.org/doc/html/rfc7946#section-3.2).
 
 ## Trials and tests
 
 <!-- TODO -->
+
+[GeoJSON]: https://geojson.org
