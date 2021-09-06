@@ -7,9 +7,9 @@ lastmod: 2021-05-17T07:25:00+02:00
 
 # Terminology for users
 
-## Placemarks
+## Places
 
-Placemarks are [spots](#spots) or [facilities](#facilities). They are located at an exact point, but can have more detailed components.
+Places are [spots](#spots) or [facilities](#facilities). They are located at an exact point, but can have more detailed components.
 
 ### Spots
 
@@ -27,27 +27,27 @@ A facility is a building designed for practicing parkour, freerunning, boulderin
 
 <!-- TODO: Add link to detailed list -->
 
-### Placemark types
+### Place types
 
 <!-- TODO: Add link to detailed list -->
 
-### Placemark categories
+### Place categories
 
 <!-- TODO: Add link to detailed list -->
 
-### Placemark components
+### Place components
 
-Placemark components are a way of describing more finely how a [placemark](#placemarks) is geographically organized. It can be seen as a small map of the place, with shapes and labels.
+Place components are a way of describing more finely how a [place](#places) is geographically organized. It can be seen as a small map of the place, with shapes and labels.
 
-### Placemark elements
+### Place elements
 
-Placemark elements are what you can find on a [placemark](#placemarks). It can be walls, barriers, trees… as long as it’s useful for practicing. Most of the time it can be related to a [component](#placemark-components).
+Place elements are what you can find on a [place](#places). It can be walls, barriers, trees… as long as it’s useful for practicing. Most of the time it can be related to a [component](#place-components).
 
 <!-- TODO: Add link to detailed list -->
 
-### Placemark features
+### Place features
 
-Placemarks features describe the spot. They say what you can find on the spot and what makes it different from others. It includes [placemark elements](#placemark-elements), benefits, dangers and techniques you can train there.
+Places features describe the spot. They say what you can find on the spot and what makes it different from others. It includes [place elements](#place-elements), benefits, dangers and techniques you can train there.
 
 #### Word choice
 
@@ -73,7 +73,7 @@ Placemarks features describe the spot. They say what you can find on the spot an
 
 ## Maps
 
-Maps are a small set of [placemarks](#placemarks).
+Maps are a small set of [places](#places).
 
 ## Folders
 
