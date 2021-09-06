@@ -27,13 +27,19 @@ A facility is a building designed for practicing parkour, freerunning, boulderin
 
 <!-- TODO: Add link to detailed list -->
 
-### Place types
-
-<!-- TODO: Add link to detailed list -->
-
 ### Place categories
 
 <!-- TODO: Add link to detailed list -->
+
+### Place kinds
+
+Place kinds answer "What kind/type of spot is this?". For example,
+places can be training spots, calisthenics parks…
+
+You can find the full list on [our Google Sheets spreadsheet](https://docs.google.com/spreadsheets/d/1rlVB6HAOHgvqnQDtstfvy6zwYsYKq1xPE6Q_ZHPqWUw/edit#gid=232218574).
+
+To help us categorize places, please read
+["You can easily help us categorize parkour spots, wanna help?" on our blog](https://monkiprojects.com/blog/help-us-categorize-parkour-spots/).
 
 ### Place components
 
