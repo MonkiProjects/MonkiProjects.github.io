@@ -5,11 +5,21 @@
 
 ## Terminology
 
-For a human-readable description, see [Terminology for users > Places](./terminology-for-users.md#places). For a developer-oriented description, see [Monki Projects Docs > Monki Map Models > Place](https://docs.monkiprojects.com/monki-projects-model-swift/monki-map-model/Place/).
+For a human-readable description, see [Terminology for users > Places](./terminology-for-users.md#places).
+For a developer-oriented description,
+see [Monki Projects Docs > Monki Map Models > Place](https://docs.monkiprojects.com/monki-projects-model-swift/monki-map-model/Place/).
 
 ## Feature description
 
-<!-- TODO -->
+Places are basically a place in the world. They can be anything from a big parkour training spot
+to a water fountain to a bench to a parkour park.
+
+> **Note:** See [Terminology for users > Places](./terminology-for-users.md#places) for an explanation
+> of the related vocabulary.
+
+Places are categorized by their kind (training spot, calisthenics park…)
+and their category (spot, facility…). For more information on places' categorization,
+see ["You can easily help us categorize parkour spots, wanna help?" on our blog](https://monkiprojects.com/blog/help-us-categorize-parkour-spots/).
 
 ## Technical specs
 
