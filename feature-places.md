@@ -13,6 +13,17 @@ For a human-readable description, see [Terminology for users > Places](./termino
 
 ## Technical specs
 
+### Places have IDs starting with `place_`
+
+> By Rémi Bardon on 06/09/2021
+
+We use `UUID`s everywhere, so to distinguish them, we decided to prefix the random values
+by a fixed word.
+For places it's `place_`, like in `place_03aa0171-0d76-4144-bf5b-bf56654deb5d`.
+
+> **Note:** To make it as performant as regular (Swift) `UUID`s,
+> we developed [`Prefixed`](https://github.com/RemiBardon/swift-prefixed-type).
+
 ### `Place` is an `enum` type
 
 > By Rémi Bardon on 06/09/2021
@@ -40,7 +51,17 @@ when interacting with a [CRUD storage](https://en.wikipedia.org/wiki/Create,_rea
 
 ## Ideas
 
-<!-- TODO -->
+### Places as maps
+
+> By Rémi Bardon on 06/09/2021
+
+Places could be seen as maps, because it can contain other [elements](./terminology-for-users.md#place-elements).
+Displaying a place could then show a scoped map with markers for each element creating it,
+as maps show places it contains.
+
+In [GeoJSON](https://geojson.org), that would mean a place is
+a [`FeatureCollection` object](https://datatracker.ietf.org/doc/html/rfc7946#section-3.3),
+not just a [`Feature` object](https://datatracker.ietf.org/doc/html/rfc7946#section-3.2).
 
 ## Trials and tests
 
