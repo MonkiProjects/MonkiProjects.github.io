@@ -1,14 +1,16 @@
 # Monki Projects Documentation
 
+<!-- Resulting URL: <https://docs.monkiprojects.com/> -->
+
 ## Terminology
 
-- **Terminology for users**: [/terminology-for-users](https://docs.monkiprojects.com/terminology-for-users)
+- **Terminology for users**: [/terminology-for-users](/terminology-for-users.md)
 
 ## Features
 
-- **Places**: [/feature-places](https://docs.monkiprojects.com/feature-places)
-- **Place creation**: [/feature-place-creation](https://docs.monkiprojects.com/feature-place-creation)
-- **Place markers**: [/feature-place-markers](https://docs.monkiprojects.com/feature-place-markers)
+- **Places**: [/feature-places](/feature-places.md)
+- **Place creation**: [/feature-place-creation](/feature-place-creation.md)
+- **Place markers**: [/feature-place-markers](/feature-place-markers.md)
 
 > **Note:** "Technical specs" of features are oriented for [Swift language](https://swift.org), as it is for now the only development language used in the project.
 
