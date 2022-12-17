@@ -12,6 +12,7 @@
   - **Place creation**: [/feature-place-creation](/feature-place-creation.md)
   - **Place images**: [/feature-place-images](/feature-place-images.md)
   - **Place markers**: [/feature-place-markers](/feature-place-markers.md)
+  - **Place sharing**: [/feature-place-sharing](/feature-place-sharing.md)
 
 > **Note:** "Technical specs" of features are oriented for [Swift language](https://swift.org), as it is for now the only development language used in the project.
 
