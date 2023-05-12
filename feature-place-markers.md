@@ -13,7 +13,7 @@ you should probably read it first.
 Places can be shown on maps. To make those maps easier to understand,
 we decided to think about ways to differenciate them at a glance.
 
-We decided to create [place kinds](./terminology-for-users.md#place-kinds) and [place cetegories](./terminology-for-users.md#place-categories)).
+We decided to create [place kinds](./terminology-for-users.md#place-kinds) and [place categories](./terminology-for-users.md#place-categories).
 
 For now, markers have a color defined by the place category,
 and a glyph defined by the place kind.
